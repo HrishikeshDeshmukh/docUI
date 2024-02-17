@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ 
+}
+
+.back{
+  background-image: url(https://wallpapercave.com/wp/wp9983504.jpg);
+  background-position: center;
+  background-size: cover;
+  opacity: .3;
+
+}
+
+
+::selection {
+  color: rgb(255,179,0);
+}
